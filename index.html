@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="./pre.js"></script>
+</head>
+<body class="general">
+    <h1 class="titulo">Conversor</h1>
+    <div class="principal">
+        <input type="number" placeholder="Ingresa la cantidad" id="Cantidad"> 
+        <button id="Oficial">Dolar Oficial</button>
+        <button id="D-blue">Dolar Blue</button>
+        <button id="mep">Dolar MEP</button>
+        <button id="E-blue">Euro Blue</button>
+    </div>
+    <div class="historiales">
+        <div class="resultado">
+            <ul id="lista"></ul>
+            <button class="Eliminar">Eliminar</button>
+        </div>
+        <div class="historialCompleto">
+            <h2>Historial</h2>
+            <ul id="historial"></ul>
+            <button class="Borrar">Borrar</button>
+        </div>
+    </div>
+
+</body>
+</html>
